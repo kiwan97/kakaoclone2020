@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chat</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="https://kit.fontawesome.com/cf08d80c4a.js" crossorigin="anonymous"></script>
+</head>
+<body class="chat-body">
+    <div class="header__wrapper">
+        <div class="status-bar">
+            <div class="status-bar__column">11:55</div>
+            <div class="status-bar__column">
+                <i class="fas fa-clock"></i>
+                <i class="fas fa-wifi"></i>
+                <i class="fas fa-volume-mute"></i>
+                <i class="fas fa-battery-three-quarters"></i>
+                <span class="status-bar__batter-detail">75%</span>
+            </div>
+        </div>
+        <header class="header">
+            <div class="header__header-column">
+                <a href="index.html" class="header__back-btn">
+                    <i class="fas fa-arrow-left fa-2x"></i>
+                </a>
+                <h1 class="header__title">Chat</h1>
+            </div>
+            <div class="header__header-column">
+                <span class="header__icon">
+                    <i class="fas fa-search"></i>
+                    <i class="fas fa-bars"></i>
+                </span>
+            </div>
+        </header>
+    </div>
+    <main class="chat-room">
+        <ul class="chat__messages">
+            <span class="chat__timestamp">Monday, May 11, 2020</span>
+            <li class="incoming-message message">
+                <img src="image/avata.jpg" alt="" class="message__avatar">
+                <div class="message__content">
+                    <span class="message__author">jordy</span>
+                    <span class="message__bubble">
+                        Hey! how do you do?
+                    </span>
+                </div>
+                <span class="message__timestamp">11:44</span>
+            </li>
+            <li class="sent-message message">
+                <span class="message__timestamp">11:49</span>
+                <div class="message__content">
+                    <span class="message__bubble">
+                        Why? Nothing special. How about you?
+                    </span>
+                </div>
+            </li>
+            <li class="incoming-message message">
+                    <img src="image/avata.jpg" alt="" class="message__avatar">
+                    <div class="message__content">
+                        <span class="message__author">jordy</span>
+                        <span class="message__bubble">
+                            Hey! how do you do?
+                        </span>
+                    </div>
+                    <span class="message__timestamp">11:44</span>
+                </li>
+                <li class="sent-message message">
+                    <span class="message__timestamp">11:49</span>
+                    <div class="message__content">
+                        <span class="message__bubble">
+                            Why? Nothing special. How about you?
+                        </span>
+                    </div>
+                </li>
+        </ul>
+    </main>
+    <div class="chat__write--container">
+        <input type="text" placeholder="message" class="chat__write-input chat__write"/>
+        <div class="chat__write-left-icon chat__icon">
+            <i class="far fa-plus-square"></i>
+        </div>
+        <div class="chat__write-right-icon chat__icon">
+                <i class="far fa-smile-wink"></i>
+                <i class="fas fa-microphone"></i>
+        </div>
+    </div>
+    <div class="bigScreen">
+        <span class="bigScreen__text">Please make your screen small!!</span>
+    </div>
+</body>
+</html>
